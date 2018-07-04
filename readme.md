@@ -5,7 +5,7 @@ Going forward, AI algorithms will be incorporated into more and more everyday ap
 
 In this project, trained an image classifier to recognize different species of flowers. We'll be using [this dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) of 102 flower categories, you can see a few examples below. 
 
-<img src='assets/cover.png' width=700px>
+<img src='assets/cover.png' width=900px>
 
 The project is broken down into multiple steps:
 
@@ -105,7 +105,7 @@ Now that the data is ready, it's time to build and train the classifier. As usua
 
 We're going to leave this part up to you. If you want to talk through it with someone, chat with your fellow students! You can also ask questions on the forums or join the instructors in office hours.
 
-Refer to [the rubric](https://review.udacity.com/#!/rubrics/1663/view) for guidance on successfully completing this section. Things you'll need to do:
+Things you'll need to do:
 
 * Load a [pre-trained network](http://pytorch.org/docs/master/torchvision/models.html) (If you need a starting point, the VGG networks work great and are straightforward to use)
 * Define a new, untrained feed-forward network as a classifier, using ReLU activations and dropout
@@ -287,240 +287,8 @@ train(model, epochs=20)
      Validation Loss: 0.793
      Accuracy: 78.80%
      *********************************
-    
-     Epoch: 5/20
-     Training Loss: 1.777
-     Validation Loss: 0.742
-     Accuracy: 79.83%
-     *********************************
-    
-     Epoch: 6/20
-     Training Loss: 1.765
-     Validation Loss: 0.887
-     Accuracy: 78.50%
-     *********************************
-    
-     Epoch: 6/20
-     Training Loss: 1.679
-     Validation Loss: 0.756
-     Accuracy: 81.21%
-     *********************************
-    
-     Epoch: 6/20
-     Training Loss: 1.625
-     Validation Loss: 0.708
-     Accuracy: 83.28%
-     *********************************
-    
-     Epoch: 7/20
-     Training Loss: 1.646
-     Validation Loss: 0.687
-     Accuracy: 82.10%
-     *********************************
-    
-     Epoch: 7/20
-     Training Loss: 1.606
-     Validation Loss: 0.736
-     Accuracy: 79.56%
-     *********************************
-    
-     Epoch: 7/20
-     Training Loss: 1.630
-     Validation Loss: 0.717
-     Accuracy: 82.05%
-     *********************************
-    
-     Epoch: 8/20
-     Training Loss: 1.547
-     Validation Loss: 0.653
-     Accuracy: 83.80%
-     *********************************
-    
-     Epoch: 8/20
-     Training Loss: 1.687
-     Validation Loss: 0.739
-     Accuracy: 81.57%
-     *********************************
-    
-     Epoch: 9/20
-     Training Loss: 1.540
-     Validation Loss: 0.677
-     Accuracy: 81.32%
-     *********************************
-    
-     Epoch: 9/20
-     Training Loss: 1.448
-     Validation Loss: 0.634
-     Accuracy: 84.37%
-     *********************************
-    
-     Epoch: 9/20
-     Training Loss: 1.567
-     Validation Loss: 0.707
-     Accuracy: 81.89%
-     *********************************
-    
-     Epoch: 10/20
-     Training Loss: 1.581
-     Validation Loss: 0.662
-     Accuracy: 84.55%
-     *********************************
-    
-     Epoch: 10/20
-     Training Loss: 1.556
-     Validation Loss: 0.686
-     Accuracy: 83.76%
-     *********************************
-    
-     Epoch: 11/20
-     Training Loss: 1.637
-     Validation Loss: 0.706
-     Accuracy: 82.82%
-     *********************************
-    
-     Epoch: 11/20
-     Training Loss: 1.560
-     Validation Loss: 0.668
-     Accuracy: 83.62%
-     *********************************
-    
-     Epoch: 11/20
-     Training Loss: 1.560
-     Validation Loss: 0.701
-     Accuracy: 82.03%
-     *********************************
-    
-     Epoch: 12/20
-     Training Loss: 1.540
-     Validation Loss: 0.661
-     Accuracy: 83.56%
-     *********************************
-    
-     Epoch: 12/20
-     Training Loss: 1.691
-     Validation Loss: 0.646
-     Accuracy: 84.45%
-     *********************************
-    
-     Epoch: 13/20
-     Training Loss: 1.488
-     Validation Loss: 0.652
-     Accuracy: 83.81%
-     *********************************
-    
-     Epoch: 13/20
-     Training Loss: 1.514
-     Validation Loss: 0.586
-     Accuracy: 86.49%
-     *********************************
-    
-     Epoch: 13/20
-     Training Loss: 1.465
-     Validation Loss: 0.610
-     Accuracy: 86.25%
-     *********************************
-    
-     Epoch: 14/20
-     Training Loss: 1.634
-     Validation Loss: 0.656
-     Accuracy: 86.46%
-     *********************************
-    
-     Epoch: 14/20
-     Training Loss: 1.537
-     Validation Loss: 0.620
-     Accuracy: 85.88%
-     *********************************
-    
-     Epoch: 14/20
-     Training Loss: 1.631
-     Validation Loss: 0.597
-     Accuracy: 85.74%
-     *********************************
-    
-     Epoch: 15/20
-     Training Loss: 1.470
-     Validation Loss: 0.607
-     Accuracy: 86.82%
-     *********************************
-    
-     Epoch: 15/20
-     Training Loss: 1.543
-     Validation Loss: 0.643
-     Accuracy: 85.92%
-     *********************************
-    
-     Epoch: 16/20
-     Training Loss: 1.500
-     Validation Loss: 0.587
-     Accuracy: 87.28%
-     *********************************
-    
-     Epoch: 16/20
-     Training Loss: 1.518
-     Validation Loss: 0.569
-     Accuracy: 87.33%
-     *********************************
-    
-     Epoch: 16/20
-     Training Loss: 1.452
-     Validation Loss: 0.624
-     Accuracy: 86.22%
-     *********************************
-    
-     Epoch: 17/20
-     Training Loss: 1.480
-     Validation Loss: 0.625
-     Accuracy: 85.74%
-     *********************************
-    
-     Epoch: 17/20
-     Training Loss: 1.438
-     Validation Loss: 0.590
-     Accuracy: 86.94%
-     *********************************
-    
-     Epoch: 18/20
-     Training Loss: 1.481
-     Validation Loss: 0.611
-     Accuracy: 86.82%
-     *********************************
-    
-     Epoch: 18/20
-     Training Loss: 1.514
-     Validation Loss: 0.602
-     Accuracy: 87.20%
-     *********************************
-    
-     Epoch: 18/20
-     Training Loss: 1.452
-     Validation Loss: 0.623
-     Accuracy: 87.33%
-     *********************************
-    
-     Epoch: 19/20
-     Training Loss: 1.567
-     Validation Loss: 0.639
-     Accuracy: 87.35%
-     *********************************
-    
-     Epoch: 19/20
-     Training Loss: 1.456
-     Validation Loss: 0.551
-     Accuracy: 87.62%
-     *********************************
-    
-     Epoch: 20/20
-     Training Loss: 1.380
-     Validation Loss: 0.561
-     Accuracy: 87.57%
-     *********************************
-    
-     Epoch: 20/20
-     Training Loss: 1.457
-     Validation Loss: 0.607
-     Accuracy: 86.49%
-     *********************************
+
+..........
     
      Epoch: 20/20
      Training Loss: 1.465
@@ -829,9 +597,7 @@ def predict(image_path, model, topk=5):
 
 ## Sanity Checking
 
-Now that you can use a trained model for predictions, check to make sure it makes sense. Even if the testing accuracy is high, it's always good to check that there aren't obvious bugs. Use `matplotlib` to plot the probabilities for the top 5 classes as a bar graph, along with the input image. It should look like this:
-
-<img src='assets/inference_example.png' width=300px>
+Now that you can use a trained model for predictions, check to make sure it makes sense. Even if the testing accuracy is high, it's always good to check that there aren't obvious bugs. Use `matplotlib` to plot the probabilities for the top 5 classes as a bar graph, along with the input image.
 
 You can convert from the class integer encoding to actual flower names with the `cat_to_name.json` file (should have been loaded earlier in the notebook). To show a PyTorch tensor as an image, use the `imshow` function defined above.
 
